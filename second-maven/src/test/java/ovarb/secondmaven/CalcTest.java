@@ -10,7 +10,7 @@ public class CalcTest {
 	@Test
 	public void testCalcAdd() {
 		Calculator c = new Calculator();
-		int result = 5;
+		int result = 6;
 		Assert.assertEquals(result, c.calcadd(2, 3));
 	}
 	
